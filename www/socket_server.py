@@ -5,7 +5,7 @@ import random
 #创建实例
 sk=socket.socket()
 #定义绑定的IP和port
-ip_port=("127.0.0.1",8888)
+ip_port=("127.0.0.1"3334,)
 #绑定监听
 sk.bind(ip_port)
 #最大连接数
